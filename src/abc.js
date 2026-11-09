@@ -1,0 +1,33 @@
+const ABC=[
+["Α","α","Alpha","a","a as in father","ἀνήρ – man"],
+["Β","β","Beta","b","b","βίος – life"],
+["Γ","γ","Gamma","g","g as in go; before γ κ ξ χ it is ng","γῆ – earth · ἄγγελος = angelos"],
+["Δ","δ","Delta","d","d","δῆμος – people"],
+["Ε","ε","Epsilon","e","short e as in bet","ἔργον – work"],
+["Ζ","ζ","Zeta","z","zd / dz","ζῷον – living being"],
+["Η","η","Eta","ē","long open e, as in air","ἥλιος – sun"],
+["Θ","θ","Theta","th","ancient: aspirated t; today th as in thin","θεός – god"],
+["Ι","ι","Iota","i","i (short or long)","ἰδέα – form"],
+["Κ","κ","Kappa","k","k","κόσμος – order"],
+["Λ","λ","Lambda","l","l","λόγος – word, reason"],
+["Μ","μ","Mu","m","m","μῦθος – story"],
+["Ν","ν","Nu","n","n","νοῦς – mind"],
+["Ξ","ξ","Xi","x","ks","ξένος – stranger"],
+["Ο","ο","Omicron","o","short o as in pot","ὁδός – road"],
+["Π","π","Pi","p","p","πόλις – city"],
+["Ρ","ρ","Rho","r","rolled r; rh at the start of a word","ῥήτωρ – speaker"],
+["Σ","σ / ς","Sigma","s","s; written ς at the end of a word","σοφία – wisdom · λόγος"],
+["Τ","τ","Tau","t","t","τέχνη – craft"],
+["Υ","υ","Upsilon","y (u)","like French u / German ü; u in diphthongs","ὕδωρ – water"],
+["Φ","φ","Phi","ph","ancient: aspirated p; today f","φύσις – nature"],
+["Χ","χ","Chi","ch","ancient: aspirated k; today ch as in loch","χρόνος – time"],
+["Ψ","ψ","Psi","ps","ps","ψυχή – soul"],
+["Ω","ω","Omega","ō","long open o, as in saw","ὥρα – hour"]];
+const SPECIAL=[
+["ἁ  ἀ","Breathings","Every word starting with a vowel carries one. Rough breathing ( ῾ ) = h: ἁ = ha. Smooth breathing ( ᾿ ) = no sound: ἀ = a."],
+["ά  ὰ  ᾶ","Accents","Acute, grave, circumflex. Originally pitch, today usually read as stress. They are dropped in transliteration."],
+["ᾳ  ῃ  ῳ","Iota subscript","A small ι under α, η, ω. Not pronounced; often written as i in transliteration: τῷ = tōi."],
+["αι ει οι ου αυ ευ","Diphthongs","ai, ei, oi, ou (= oo), au, eu. A vowel pair forms one syllable."],
+["ϊ","Diaeresis","Two dots split a vowel pair: προϊέναι = pro-ienai."],
+["; ·","Punctuation","The Greek ; is a question mark. The raised dot · works as colon or semicolon."]];
+
