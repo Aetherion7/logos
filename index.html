@@ -555,7 +555,7 @@ function home(){
     <button id="mNew"><span class="hgr" aria-hidden="true">Ἐξ ἀρχῆς</span><span class="hen">Start over</span></button>
     ${t?`<button id="mCont"><span class="hgr" aria-hidden="true">Πρόσω</span><span class="hen">Continue</span></button>`:""}
     <button id="mAbc"><span class="hgr" aria-hidden="true">Τὰ γράμματα</span><span class="hen">The alphabet</span></button>
-    <button id="mLib"><span class="hgr" aria-hidden="true">Τὰ βιβλία</span><span class="hen">Texts</span></button>
+    <button id="mLib"><span class="hgr" aria-hidden="true">Τὰ βιβλία</span><span class="hen">Library</span></button>
     <button id="mSaved"><span class="hgr" aria-hidden="true">Μνήμη</span><span class="hen">Saved</span></button>
     <button id="mTbl"><span class="hgr" aria-hidden="true">Ὁ πίναξ</span><span class="hen">Alphabet table</span></button>
     <button id="mSet"><span class="hgr" aria-hidden="true">Διάταξις</span><span class="hen">Settings</span></button>
@@ -617,7 +617,6 @@ const BLURB={apology:"Socrates' speech in his own defence before the Athenian ju
 function unroll(t){
   const p=progress[t.id],n=t.pages.length,ov=document.createElement("div");ov.className="scr-ov";
   ov.innerHTML=`<button class="cl" aria-label="Close">×</button><div class="scr" role="dialog" aria-label="${esc(t.en)}"><img src="${ROLL_TOP}" alt=""><div class="pw"><div class="pp"><div class="pc">
-    ${settings.portrait?`<img class="pt" src="${IMG[t.img].src}" alt="">`:""}
     <div class="te">${t.en}</div><div class="tg">${t.title}</div><p class="lbl" style="margin:0">${t.name}</p>
     <p>${BLURB[t.id]||""}</p><p class="lbl" style="font-size:13px;letter-spacing:.1em">${Math.min((p||0)+1,n)}/${n}</p>
     <button class="go" aria-label="Read"><img src="${HAND}" alt=""></button></div></div></div><img src="${ROLL_BOT}" alt=""></div>`;
